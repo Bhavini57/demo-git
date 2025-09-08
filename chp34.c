@@ -1,15 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    int Q,D=0;
-    float R,T;
-    printf ("enter quantity and rate");
-    scanf ("%d%f",&Q,&R);
-    if (Q>1000)
-    D=10;
+int bonus, py, yi, ts;
 
-    T=(Q*R)-(Q*R*D/100);
-    printf ("total expenses = rs. %f\n",T);
+printf("enter py and yi");
+scanf("%d%d",&py,&yi);
 
+ts=py-yi;
+if (ts>3);
+{
+    bonus=2500;
+    printf("bonus=rs.%d\n", bonus);
+
+}
     return 0;
 }
+
