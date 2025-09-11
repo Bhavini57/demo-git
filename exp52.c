@@ -4,10 +4,10 @@ int main() {
     int num, i;
 
     // asking for the number
-    printf("Enter the number to print its table: ");
+    printf("Enter the number : ");
     scanf("%d", &num);
 
-    printf("\nHere is the multiplication table of %d:\n\n", num);
+    printf("\nthe multiplication table of %d:\n", num);
 
     // loop from 1 to 10
     for (i = 1; i <= 10; i++) {
@@ -16,4 +16,5 @@ int main() {
 
     return 0;
 }
+
 
