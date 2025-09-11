@@ -9,18 +9,24 @@ int main() {
         printf("Enter any number: ");
         scanf("%d", &num);
 
-        if (num > 0) {
+        if (num > 0) 
+        {
             positive++;
-        } else if (num < 0) {
+        }
+        else if (num < 0) 
+        {
             negative++;
-        } else {
+        }
+        else 
+        {
             zero++;
         }
 
         printf("Do you want to enter another number (y/n)? ");
         scanf(" %c", &again);
 
-    } while (again == 'y' || again == 'Y');
+    } 
+        while (again == 'y' || again == 'Y');
 
     printf("\nSummary:\n");
     printf("Positive numbers: %d\n", positive);
@@ -29,4 +35,5 @@ int main() {
 
     return 0;
 }
+
 
