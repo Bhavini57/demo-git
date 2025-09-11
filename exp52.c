@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int num, i;
 
 
-    printf("Enter the number : ");
+    printf("Enter the number:");
     scanf("%d", &num);
 
     printf("the multiplication table of %d:\n", num);
@@ -16,6 +17,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
